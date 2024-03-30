@@ -77,9 +77,19 @@ WSGI_APPLICATION = 'blog_site.wsgi.application'
 
 DATABASES = {
     'default': {
+<<<<<<< HEAD
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
+=======
+       'ENGINE': 'django.db.backends.postgresql',
+       'NAME': 'maqola',
+       'USER': 'article',
+       'PASSWORD': '12345',
+       'HOST': 'localhost',
+       'PORT': '5432',
+   }
+>>>>>>> fc755d3 (blog_site a)
 }
 
 
