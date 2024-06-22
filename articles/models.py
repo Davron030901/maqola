@@ -1,7 +1,5 @@
 from django.db import models
 
-<<<<<<< HEAD
-=======
 class Maqola(models.Model):
     title=models.CharField(max_length=255)
     author=models.CharField(max_length=255,blank=True,null=True)
@@ -10,5 +8,3 @@ class Maqola(models.Model):
 
     def __str__(self):
         return f"{self.title}"
->>>>>>> fc755d3 (blog_site a)
-# Create your models here.
